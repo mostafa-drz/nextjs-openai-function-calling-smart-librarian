@@ -52,7 +52,7 @@ export async function handleUserInput(userInput: string) {
       {
         role: "system",
         content:
-          "You are a smart librarian. You receive a user input and you need to suggest a list of books based on the user's interests from the list of available books in our library. You can use the function getBookSuggestions to get a list of books based on the user's interests.",
+          "You are a smart librarian. Based on the user's input, your task is to recommend books from our library collection that align with their interests. Use the 'getBookSuggestions' function to retrieve a list of books matching their preferences.",
       },
       { role: "user", content: userInput },
     ],
@@ -77,7 +77,7 @@ export async function handleUserInput(userInput: string) {
       {
         role: "system",
         content:
-          "As a smart liberian, you receive a list of books. Add a brief description to each item based on available data about the book. This is a list of books available in our library. If list is empty just apologize and mention we will try to have available in the future.",
+          "You are a smart librarian. You have received a list of books from our library. For each book, provide a brief description based on its available details. If the list is empty, politely apologize and inform the user that we will strive to add relevant books to our collection in the future.",
       },
       {
         role: "assistant",

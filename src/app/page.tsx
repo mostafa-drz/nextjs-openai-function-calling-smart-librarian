@@ -28,15 +28,14 @@ export default function Home() {
         </h1>
         <div className="mb-4">
           <label htmlFor="userInput" className="block text-gray-600 mb-2">
-            I am a smart librarian. Tell me more about your interests and what
-            are you looking for, I try to find something from our available
-            books collection.
+            I am a smart librarian. Share your interests and what you’re looking
+            for, and I’ll suggest books from our available collection.
           </label>
           <textarea
             id="userInput"
             name="userInput"
             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 text-black"
-            placeholder="Type something..."
+            placeholder="Tell me more about what are you looking for..."
             required
           />
         </div>
