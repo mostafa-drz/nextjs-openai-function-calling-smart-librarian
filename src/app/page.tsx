@@ -24,7 +24,7 @@ export default function Home() {
         <h1 className="text-2xl font-bold text-gray-800 mb-4">Smart Librarian</h1>
         <div className="mb-4">
           <label htmlFor="userInput" className="block text-gray-600 mb-2">
-            I am a smart librarian. Tell me more about your interests and what are you looking for, I'll try to find something from our available books collection.
+            I am a smart librarian. Tell me more about your interests and what are you looking for, I try to find something from our available books collection.
           </label>
           <textarea
             id="userInput"
