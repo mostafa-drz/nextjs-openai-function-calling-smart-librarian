@@ -13,6 +13,6 @@ This project is designed to help developers understand how OpenAI functions can 
 First, run the development server:
 
 ```bash
-npm run install && npm run dev
+npm install && npm run dev
 ```
 
